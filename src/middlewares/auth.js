@@ -13,7 +13,7 @@ const userAuth = (req, res, next) => {
     const token = "xyz";
     const userAuth = token === "xyz";
     if (!userAuth) {
-      res.status(401).send("handles all user data.........");
+      res.status(401).send("request is unaunthenticated.........");
     } else {
       next();
     }
