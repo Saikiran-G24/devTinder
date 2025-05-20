@@ -11,7 +11,7 @@ app.use("/user/getUserData",(req,res,next)=>{
 
 })
 app.use('/',(err,req,res,next)=>{
-  console.log('2....')
+  console.log('2.')
   res.status(500).send('something went wrong........')
 })
 // app.use("/user",(req,res,next)=>{
